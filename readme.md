@@ -9,3 +9,11 @@ iniciar projeto django
 
 criar app
     - python manage.py startapp nome_do_app
+
+coletar arquivos estaticos
+    - python manage.py collectstatic
+    - serve para coletar arquivos estaticos
+    - é necessário configurar o statichoot -> caminho da pasta onde quero que salve todos os arquivos de minha aplicação
+
+    - criar static rook
+      - no seeting, criar uma variável "STATIC_ROOT = BASEDIR / '"

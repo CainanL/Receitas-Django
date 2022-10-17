@@ -17,3 +17,7 @@ coletar arquivos estaticos
 
     - criar static rook
       - no seeting, criar uma variável "STATIC_ROOT = BASEDIR / '"
+
+django parameters
+    - Sever para fazer o mesmo que o express validator faz
+    - documentação "https://docs.djangoproject.com/en/4.1/topics/http/urls/"

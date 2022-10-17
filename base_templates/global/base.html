@@ -1,0 +1,20 @@
+{% include 'recipes/partials/head.html' %}
+<body>
+   {% include 'recipes/partials/header.html' %}
+   {% include 'recipes/partials/search.html' %}
+
+   <main class="main-content-container">    
+    {% block content %}{% endblock content %}        
+   </main>
+
+   <footer class="main-footer">
+    <div class="developer">
+        <a href="komput.com.br" target="_blank" rel="noreferrer noope">Komput</a>
+    </div>
+ 
+    <div class="powered">
+        <a href="komput.com.br" target="_blank" rel="noreferrer noope">Komput</a>
+    </div>
+</footer>
+</body>
+</html>
